@@ -1,3 +1,4 @@
-app:
-    resource: @AppBundle/Controller/
-    type:     annotation
+bdb_studios_blog:
+    resource: "@BDBStudiosBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
