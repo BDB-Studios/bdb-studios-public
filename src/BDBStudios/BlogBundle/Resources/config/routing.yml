@@ -3,3 +3,15 @@ BDB_Studios_HomePage:
     defaults: { _controller: BDBStudiosBlogBundle:Page:index }
     requirements:
         _method:  GET
+
+BDB_Studios_AboutPage:
+    pattern:  /about
+    defaults: { _controller: BDBStudiosBlogBundle:Page:about }
+    requirements:
+        _method:  GET
+
+BDB_Studios_ContactPage:
+    pattern:  /contact
+    defaults: { _controller: BDBStudiosBlogBundle:Page:contact }
+    requirements:
+        _method:  GET

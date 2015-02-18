@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html"; charset=utf-8" />
-    <title>{% block title %}symblog{% endblock %} - symblog</title>
+    <title>{% block title %}{% endblock %} - BDB-Studios</title>
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -22,9 +22,9 @@
             {% block navigation %}
                 <nav>
                     <ul class="navigation">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="{{ path('BDB_Studios_HomePage') }}">Home</a></li>
+                        <li><a href="{{ path('BDB_Studios_AboutPage') }}">About</a></li>
+                        <li><a href="{{ path('BDB_Studios_ContactPage') }}">Contact</a></li>
                     </ul>
                 </nav>
             {% endblock %}
