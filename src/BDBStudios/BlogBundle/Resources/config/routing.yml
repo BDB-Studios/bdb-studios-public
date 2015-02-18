@@ -1,0 +1,5 @@
+BDB_Studios_HomePage:
+    pattern:  /
+    defaults: { _controller: BDBStudiosBlogBundle:Page:index }
+    requirements:
+        _method:  GET
